@@ -1,7 +1,7 @@
 require 'bundler'
 Bundler.require
 
-require './models/model.rb'
+require './models/Video_Games.rb'
 
 class MyApp < Sinatra::Base
 
@@ -9,11 +9,9 @@ class MyApp < Sinatra::Base
     erb :index
   end
 
-<<<<<<< HEAD
   post '/results' do
     puts params
     erb :results
 end
-=======
->>>>>>> 74d1e25ea928b02405ead8c39acf79c362219952
+
 end
