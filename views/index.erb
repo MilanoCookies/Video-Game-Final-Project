@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>VIDEO GAME RECCOMENDER</title>
+     <title>Video Game Recommender</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <p> VIDEO GAME RECCOMENDER</p>
-      <form action ="/results" method="POST">
-<select name >
-  <option value="sports">Sports</option>
-  <option value="action_and_adventure">Action And Adventure</option>
-  <option value="cars_racing">Cars/Racing</option>
-  <option value="first_person_shooter">First Person Shooter</option>
-  <option value="fighting_combat">Fighting/Combat</option>
-  <option value="stealth">Stealth</option>
-  <option value="open_world_survival">Open World/Survival</option>
-</select>
+    <p> <u>Video Game Recommender</u></p>
+    <p id="intro"> Welcome to the video game recommender! Here you can find an assortment of fun, challenging, and realistic video games that you will find hard to stop playing. Here, we will give you diffeenent games based on your video game preferences and past experiences. We will also have a review and a gameplay video so you can see exactly what the game will be like before you buy it. If you are on a budget, we will only show you games within your selected price range. To begin, choose your favorite genre of video games:
+      <div class="genre_color">
+     <form action ="/results" method="POST">
+
+
+        <select name >
+          <option class="genre_color" value="sports">Sports</option>
+          <option class="genre_color" value="action_and_adventure">Action And Adventure</option>
+          <option class="genre_color" value="cars_and_racing">Cars/Racing</option>
+          <option class="genre_color" value="first_person_shooter">First Person Shooter</option>
+          <option class="genre_color" value="fighting_combat">Fighting/Combat</option>
+          <option class="genre_color" value="stealth">Stealth</option>
+          <option class="genre_color" value="open_world_survival">Open World/Survival</option>
+        </select>
   
-      <input type="submit" value="Submit">
+      <input type="Submit" value="Submit">
+       <p> Made by Toky and Milan </p>
     </form>
+    </div>
   </body>
 </html>
