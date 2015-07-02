@@ -4,11 +4,11 @@ Bundler.require
 require './models/model.rb'
 
 class MyApp < Sinatra::Base
-
+  
   get '/' do
     erb :index
   end
-
+  
 <<<<<<< HEAD
   post '/results' do
     puts params
