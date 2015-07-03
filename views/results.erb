@@ -5,10 +5,11 @@
     <link type="text/css" rel="stylesheet" href="css/style.css"> 
   </head>
   <body>
-    <p> <%=@name%> </p>
-    <img src="<%=@picture%>">
-    <p> <%=@rating%> </p>
+    <p class="results_title"> <u> <%=@name%> </u> </p>
+    <div class="results_pictures"><img class="results_image" src="<%=@picture%>"></div>
+    <p class="results_rating"> <%=@rating%> </p>
     <p> <%=@nwebsite%> </p>
-    <p> <%=@trailer%> </p>
+    <p class="results_trailer"> <%=@trailer%> </p>
+    <p id="made_by"> Made by Toky and Milan </p>
   </body> 
 </html>

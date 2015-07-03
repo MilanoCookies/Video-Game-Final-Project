@@ -6,7 +6,7 @@
   font-size: 15px;
   color: black;
   text-align: center; 
-  margin-top: 7.5cm;
+  margin-top: 6cm;
   font-style: italic;
   font-weight: bold;
 }
@@ -28,7 +28,7 @@ p{
 
 .genre_color {
   text-align: center;
-  margin-top: 1.5cm;
+  margin-top: 1cm;
 }
 
 body {
@@ -36,16 +36,37 @@ body {
 }
 
 select {
-  font-size: 30px;
+  font-size: 15px;
   font-family: 'Cabin Condensed', sans-serif;
 }
 
 #submit {
-  font-size: 19px;
+  font-size: 7px;
   font-family: 'Cabin Condensed', sans-serif;
+  font-weight: bold;
 }
 
-.results_image{
-  height: 100px;
-  width: 100px
+.results_pictures {
+   float: left;
+}
+
+.results_image {
+  height: 315px;
+  width: 560px;
+  margin-top: 4px
+}
+
+.results_trailer {
+  margin-bottom: 10px
+  
+}
+
+.results_title{
+  color: white
+  
+}
+
+.results_rating{
+  margin-top: 15px;
+  
 }
