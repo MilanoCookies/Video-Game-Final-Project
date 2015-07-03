@@ -44,3 +44,8 @@ select {
   font-size: 19px;
   font-family: 'Cabin Condensed', sans-serif;
 }
+
+.results_image{
+  height: 100px;
+  width: 100px
+}

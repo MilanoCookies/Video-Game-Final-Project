@@ -37,20 +37,17 @@ class MyApp < Sinatra::Base
       @game = @stealth.sample
     elsif choice == "open_world_and_survival"
       @game = @open_world_and_survival.sample
-      
+    end
+    
       @name = @game.name
       @picture = @game.picture
       @rating = @game.rating
       @website = @game.website
-      @trailer = @game.website
+      @trailer = @game.trailer
     
     erb :results
 end 
     
     
-    
-    
-    erb :results
-end
 
 end
